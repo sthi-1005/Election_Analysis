@@ -30,5 +30,5 @@ Powershell Output:<br/>![Powershell output:](analysis/Results.png)
 
 ## Election Audit Summary 
 This script in its existing form can be used to evaluate the election results of any number of candidates in any number of counties, as long as the raw data is provided in the CSV containing "Ballot_ID", "County Name", "Voted Candidate" in that specific order. Suggested modifications to the script would include:
-1. Addition of tie scenario
+1. Addition of tie scenario in the case where more than one candidate or one county shares the highest vote count.
 2. Addition validation checks to Ballot ID to ensure there is no data import error such as filtering duplication and length of ballot ID.
